@@ -5,6 +5,7 @@ import styled from '@emotion/styled';
 function Hero() {
 
   const Container = styled.div`
+    overflow: hidden;
     background: linear-gradient(90deg, hsl(13, 100%, 72%) 0%, hsl(353, 100%, 62%) 100%);
     border-bottom-left-radius: 7.5em 7.5em;
   `
@@ -16,8 +17,9 @@ function Hero() {
     background-image: url('/bg-pattern-intro-desktop.svg');
     background-size: auto;
     background-repeat: no-repeat;
-    background-position: bottom left -30%;
+    background-position: left 50% top 50%;
     @media (max-width: 768px) {
+      padding-top: 0rem;
       font-size: 2em;
       text-align: center;
     }
@@ -31,7 +33,7 @@ function Hero() {
     padding-bottom: 0.5em;
     margin: 0rem;
     @media (max-width: 768px) {
-      font-size: 2em;
+      font-size: 1.5em;
       text-align: center;
     }
   `;

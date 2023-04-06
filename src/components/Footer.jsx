@@ -1,5 +1,6 @@
 import styled from '@emotion/styled'
 import React from 'react'
+import { productButtons, connectButtons, companyButtons } from '../static';
 
 function Footer() {
 
@@ -54,10 +55,6 @@ function Footer() {
       text-decoration: underline;
     }
   `
-
-  const productButtons = ['Overview', 'Pricing', 'Marketplace', 'Features', 'Integrations'];
-  const companyButtons = ['About', 'Team', 'Blog', 'Careers'];
-  const connectButtons = ['Contact', 'Newsletter', 'LinkedIn'];
 
   return (
     <Container>
